@@ -95,8 +95,4 @@ module.exports = {
     usuariosPut,
     usuariosPost,
     usuariosDelete,
-    productosGet,
-    ResgistroPdt,
-    consulta
-    
 }
