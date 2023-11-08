@@ -9,7 +9,7 @@ class Server {
         // Hacemos una referencia a la instacia de express
         this.app = express()
         // Definimos el puerto del archivo .ENV
-        this.port = process.env.PORT
+        this.port = process.env.PORT || 3000
 
         // Definimos la ruta
         this.routeG = '/api/usuarios'
